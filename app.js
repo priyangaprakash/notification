@@ -16,12 +16,12 @@ RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
         .state(
             'home',{
             url:'/home',
-            templateUrl:'src/home.html'
+            templateUrl:'home.html'
             })
         .state(
             'about',{
                 url:'/about',
-                templateUrl:'src/about.html'
+                templateUrl:'about.html'
             }
         );
     };
